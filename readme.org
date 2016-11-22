@@ -12,4 +12,3 @@
 
 * Author
   Raimon Grau Cuscó <raimonster@gmail.com>
-Name
