@@ -22,8 +22,8 @@
                                 Fun "\", \"Function\", \"" Pref File "#" Fun "\")'"))))))))
 
 
-(call "wget" "http://software-lab.de/picoLisp-16.6.tgz")
-(call "tar" "-zxf" "picoLisp-16.6.tgz")
+(call "wget" "http://software-lab.de/picoLisp-16.12.tgz")
+(call "tar" "-zxf" "picoLisp-16.12.tgz")
 
 (out "functions.sh"
      (prinl "sqlite3 docSet.dsidx  'create table searchIndex(id INTEGER PRIMARY KEY, name TEXT, type TEXT, path TEXT);  CREATE UNIQUE INDEX anchr  ON searchIndex (name, type, path);'")
